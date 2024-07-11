@@ -27,4 +27,4 @@ jobs:
       with:
         path: ./artifacts
     - name: display content of file
-      run: ls -latr
+      run: cat artifacts/hello.txt
